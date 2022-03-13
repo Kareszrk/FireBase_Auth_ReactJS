@@ -4,12 +4,12 @@
 - If first login (not registered) it creates an account
 
 
-####How to install it?
+#### How to install it?
 `$ npm install`
 
 Type it in the main folder, where package.json is located
 
-####Connect it with your FireBase　
+#### Connect it with your FireBase　
 Search for /src/firebase.js
 Here define these values 
 
@@ -23,10 +23,10 @@ const firebaseConfig = {
   appId: "YOUR APP ID"
 };
 ```
-####Changed? Great! Here is how to start it:
+#### Changed? Great! Here is how to start it:
 `$ npm start`
 
-######Found any problem while installing packages? Try this one:
+###### Found any problem while installing packages? Try this one:
 `$ npm audit fix`
 
 In rare cases you might want to force it. 
